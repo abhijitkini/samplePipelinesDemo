@@ -14,7 +14,7 @@ integrations:
     - integrationName: "docker-int"
       type: docker
   notifications:
-    - integrationName: "eventTrigger"
+    - integrationName: "triggerDemoPipeline"
       type: webhook
       payload:
         - versionName='TutorialJan4'.$BUILD_NUMBER
